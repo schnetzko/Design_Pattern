@@ -13,6 +13,7 @@ using namespace std;
 
 class Component{
 	public:
+		virtual ~Component() = 0;
 		virtual void traverse() = 0;
 };
 

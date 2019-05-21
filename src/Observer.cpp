@@ -8,8 +8,9 @@
 
 #include "Observer.h"
 
-#include <iostream>
 #include <algorithm>
+#include <iostream>
+#include <iterator>
 
 using namespace std;
 

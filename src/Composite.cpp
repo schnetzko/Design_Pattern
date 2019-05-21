@@ -6,9 +6,11 @@
 // Description : Observer Pattern in C++
 //============================================================================
 
+#include "Composite.h"
+
 #include <iostream>
 
-#include "Composite.h"
+Component::~Component() {};
 
 Leaf::Leaf(string name) {
 	cout << "Leaf constructor called for object with name " << name << "\n";

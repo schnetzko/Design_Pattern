@@ -34,9 +34,9 @@ void playWithComposite() {
 	subDirectory->add(leafDirectory);
 	rootDirectory->traverse();
 
-	delete rootDirectory; //TODO: still noch correct handling as sub-destructors are not called.
+	delete rootDirectory;
 
-	cout << "--------------------------\n";
+	cout << "--------------------------\n\n";
 }
 
 void playWithObserver() {
@@ -58,13 +58,13 @@ void playWithObserver() {
 
 	subject.unsubscribe(observerB);
 	subject.setId(3);
-	cout << "--------------------------\n";
+	cout << "--------------------------\n\n";
 }
 
 void playWithVistor() {
-	cout << "::: playWithObserver()\n";
+	cout << "::: playWithVistor()\n";
 	cout << "--------------------------\n";
-
+	cout << "implementation will follow\n";
 	cout << "--------------------------\n";
 }
 
